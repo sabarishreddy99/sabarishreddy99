@@ -2,7 +2,7 @@
 
 # Jaya Sabarish Reddy Remala
 **Software Engineer — Cloud · DevOps · Full‑Stack**  
-NYC · Open to relocation
+NYC · [Open to relocation]
 
 [Portfolio](https://sabarishreddyrj.gradevitian.in/) · [LinkedIn](https://www.linkedin.com/in/jayasabarishreddyr/) · [GitHub](https://github.com/sabarishreddy99) · <jr6421@nyu.edu>
 
@@ -11,7 +11,7 @@ NYC · Open to relocation
 ---
 
 ### About me
-I design, ship, and maintain production systems end‑to‑end — from React/Next.js frontends to Kubernetes‑native backends on AWS. I care about reliability, secure defaults, and fast feedback loops.
+I design, ship, and maintain production systems end‑to‑end, applying appropriate algorithms and leveraging efficient data structures, from React/Next.js frontends to Kubernetes‑native backends on AWS. I care about reliability, secure defaults, and fast feedback loops.
 
 **Impact at a glance**
 - Shipped **3** research platforms at NYU IT using React/Node/Postgres & GitOps.
@@ -65,18 +65,6 @@ If that sounds like your team → **DM on LinkedIn** or email **jr6421@nyu.edu**
 ---
 
 #### Quick links
-[Resume](/) · [Portfolio](https://sabarishreddyrj.gradevitian.in/) · [LinkedIn](https://www.linkedin.com/in/jayasabarishreddyr/)
+[Resume]([/](https://drive.google.com/drive/folders/1vm35z-6VQjtO9A8ZBgCvvSP_7_POPTrV)) · [Portfolio](https://sabarishreddyrj.gradevitian.in/) · [LinkedIn](https://www.linkedin.com/in/jayasabarishreddyr/)
 
-<!--
-How to use:
-1) Create a repo named exactly like your username: sabarishreddy99/sabarishreddy99
-2) Add this README.md to that repo. GitHub will render it on your profile.
-Recommended pins:
-- CodeCollab (CRDT editor)
-- Terraform + K8s manifests (infra samples)
-- CI/CD pipeline examples (Jenkins/GitHub Actions)
-- gradeVITian (product with users/SEO)
-Minimalism tips:
-- Avoid visitor counters and gamified stats widgets.
-- Keep bullets outcome‑focused and number‑backed.
--->
+
