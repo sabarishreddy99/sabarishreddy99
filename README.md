@@ -1,8 +1,8 @@
 <div align="center">
 
 # Jaya Sabarish Reddy Remala
-**Software Engineer
-**Cloud · DevOps · Full‑Stack**  
+** Software Engineer
+** Cloud · DevOps · Full‑Stack**  
 NYC · [Open to relocation]
 
 [Portfolio](https://sabarishreddyrj.gradevitian.in/) · [LinkedIn](https://www.linkedin.com/in/jayasabarishreddyr/) · [GitHub](https://github.com/sabarishreddy99) · <jr6421@nyu.edu>
