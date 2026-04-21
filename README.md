@@ -5,7 +5,7 @@
 Cloud · DevOps · Full-Stack<br>
 New York City
 
-[Portfolio](https://sabarishreddyrj.gradevitian.in/) · [LinkedIn](https://www.linkedin.com/in/jayasabarishreddyr/) · [GitHub](https://github.com/sabarishreddy99) · <jr6421@nyu.edu>
+[Portfolio](https://sabarishreddy99.github.io/jayaremala/) · [LinkedIn](https://www.linkedin.com/in/jayasabarishreddyr/) · [GitHub](https://github.com/sabarishreddy99) · <jr6421@nyu.edu>
 
 </div>
 
