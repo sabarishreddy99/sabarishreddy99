@@ -1,8 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2980,100:26d0ce&height=200&section=header&text=Jaya%20Sabarish%20Reddy%20Remala&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%C2%B7%20Agentic%20AI%20%26%20Distributed%20Infra%20at%20Scale&descAlignY=58&descSize=18" width="100%"/>
-
 <p>
   <a href="https://jayaremala.com"><img src="https://img.shields.io/badge/Portfolio-jayaremala.com-26d0ce?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/jayasabarishreddyr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
