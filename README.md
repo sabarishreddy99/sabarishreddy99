@@ -132,7 +132,7 @@ Open to roles in **Healthcare, Finance, and Consumer (Entertainment & Retail)** 
 
 <div align="center">
 
-<a href="https://jayaremala.com"><img src="https://img.shields.io/badge/Talk_to_my_AI-jayaremala.com-26d0ce?style=for-the-badge&logo=openai&logoColor=white" alt="Portfolio"/></a>
+<a href="https://jayaremala.com/chat"><img src="https://img.shields.io/badge/Talk_to_my_AI-jayaremala.com-26d0ce?style=for-the-badge&logo=openai&logoColor=white" alt="Portfolio"/></a>
 <a href="https://linkedin.com/in/jayasabarishreddyr"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:jr6421@nyu.edu"><img src="https://img.shields.io/badge/Reach_out-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
