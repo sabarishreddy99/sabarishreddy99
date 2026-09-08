@@ -15,9 +15,17 @@
 <!-- ===================== ABOUT ===================== -->
 ## About
 
-Most AI demos work once. The hard part is the second week - when the agent hits an unfamiliar API, retrieval returns something plausible and wrong, and nobody can say whether Tuesday's prompt change made things better or worse.
 
-**That second week is what I build for.** Software engineer, **5+ years**, the last two on LLM systems that hold up outside a notebook - agents, retrieval, and the backends underneath them.
+I build AI systems that have to hold up when real traffic hits them.
+
+I'm Jaya, a software engineer, AI/ML with 5+ years shipping production systems, the last two focused on LLM applications that hold up outside a notebook. At NYU I took a multi-agent research platform from prototype to daily cross-institutional use, serving self-hosted Llama 3.1 70B over millions of records. Just as much of that year went into the unglamorous half: grading answer quality against held-out query sets on NDCG@10, MAP, MRR and precision@k, tracing multi-hop tool-call chains to the failing span, and holding 99.9% uptime at 3,000+ RPS while cutting P99 latency 78%.
+
+
+Four things I have taken from 0 to 1 as sole or founding engineer:
+- gradeVITian, a consumer web app at 17,000+ MAU and 20,000+ accounts, #2 on Google, still in production six years later
+- Avocado AI, a public Model Context Protocol server any Claude or Cursor client can consume, over a 4-stage hybrid retrieval pipeline
+- Tailorbird, an agent orchestrator that cut inference cost per job from $1.23 to $0.92 by priming one session and forking prompt-cached children
+- SnapLog, a QLoRA-fine-tuned Llama 3.2 3B served at 15ms on-device, 10x faster than the cloud baseline (Qualcomm Edge AI Hackathon winner)
 
 - Took a **multi-agent research platform** from prototype to daily cross-institutional use at NYU, serving self-hosted **Llama 3.1 70B** over millions of papers.
 - Raised answer quality **40%** with hybrid retrieval (**BGE-M3** + BM25 fused by Reciprocal Rank Fusion), graded before and after against held-out query sets on NDCG@10 and precision@k.
