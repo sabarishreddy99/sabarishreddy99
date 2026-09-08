@@ -102,7 +102,7 @@ Built from idea to production as sole engineer: **17,000+ monthly active users**
 <!-- ===================== CONNECT ===================== -->
 ## Let's build something
 
-Open to **AI engineering, applied AI, and backend** roles where the work is production rather than prototype — and to forward-deployed work, which is what the two years embedded at Shell actually were.
+Open to **AI engineering, applied AI, and backend** roles where the work is production rather than prototype and to forward-deployed work, which is what the two years embedded at Shell actually were.
 
 <div align="center">
 
