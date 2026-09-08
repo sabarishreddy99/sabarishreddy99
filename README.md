@@ -5,7 +5,7 @@
   <a href="https://jayaremala.com"><img src="https://img.shields.io/badge/Portfolio-jayaremala.com-26d0ce?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/jayasabarishreddyr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:jr6421@nyu.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Qualcomm_Edge_AI-Hackathon_Winner-FF6F00?style=for-the-badge&logo=qualcomm&logoColor=white" alt="Qualcomm Winner"/>
+  <img src="https://img.shields.io/badge/Qualcomm_Edge_AI-Hackathon_Winner-FF6F00?style=for-the-badge&logo=qualcomm&logoColor=white" alt="Qualcomm Edge AI Hackathon Winner"/>
 </p>
 
 <a href="https://github.com/sabarishreddy99?tab=followers"><img src="https://komarev.com/ghpvc/?username=sabarishreddy99&label=Profile%20views&color=26d0ce&style=flat" alt="profile views"/></a>
@@ -13,129 +13,93 @@
 </div>
 
 <!-- ===================== ABOUT ===================== -->
-## 🧠 About
+## About
 
-I build **AI systems that hold up under real production pressure** — at the intersection of **distributed systems** and **agentic AI**. 3+ years across Fortune 500 energy infrastructure (Shell PLC) and research-scale AI (NYU).
+Most AI demos work once. The hard part is the second week - when the agent hits an unfamiliar API, retrieval returns something plausible and wrong, and nobody can say whether Tuesday's prompt change made things better or worse.
 
-- 🔬 Currently building **GeneCart**, an AI-assisted genomics discovery platform at **NYU's Center for Genomics & Systems Biology** — owning the agent/LLM layer with LangGraph + PyTorch.
-- ⚡ Cut **P99 RAG latency by 78%** (450ms → <100ms) on a Multi-Agent research engine serving **3,000+ RPS at 99.9% uptime**.
-- 🪨 Pushed LLM inference to **15ms on Snapdragon NPUs** (10× faster than cloud) via QLoRA + AWQ quantization — won the **Qualcomm Edge AI Hackathon**.
-- 🛢️ Kept Shell's maritime telemetry alive at **115GB/day across 200+ offshore stations, zero data loss**.
-- 🎓 **M.S. Computer Science, NYU** (GPA 3.8) · TA for Algorithms & ML for Bioinformatics.
-- 💡 I like chasing unconventional ideas, and I care about engineering that serves a real human need.
+**That second week is what I build for.** Software engineer, **5+ years**, the last two on LLM systems that hold up outside a notebook - agents, retrieval, and the backends underneath them.
 
-> Curious how I built this profile? My portfolio runs **Avocado AI**, a streaming RAG agent you can actually talk to → **[jayaremala.com](https://jayaremala.com)**
+- Took a **multi-agent research platform** from prototype to daily cross-institutional use at NYU, serving self-hosted **Llama 3.1 70B** over millions of papers.
+- Raised answer quality **40%** with hybrid retrieval (**BGE-M3** + BM25 fused by Reciprocal Rank Fusion), graded before and after against held-out query sets on NDCG@10 and precision@k.
+- Held **99.9% uptime at 3,000+ RPS** through 3× load spikes, and cut **P99 latency 78%** (450ms → under 100ms).
+- Spent two years in Bengaluru embedded as the external engineering partner to **Shell PLC**, moving **115GB/day** from 200+ offshore stations with **zero data loss** and exactly-once semantics.
+- Pushed LLM inference to **15ms on a Snapdragon NPU**, 10× faster than the cloud baseline — **Qualcomm Edge AI Hackathon winner**.
+- **M.S. Computer Science, NYU Tandon** (GPA 3.8) · TA for Machine Learning and Data Structures & Algorithms, 50+ students per course.
 
-<!-- ===================== TECH STACK ===================== -->
-## 🛠️ Tech Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-**AI, ML & Agents**
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-26d0ce?style=flat-square)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
-![QLoRA](https://img.shields.io/badge/QLoRA-FF6F00?style=flat-square)
-![AWQ](https://img.shields.io/badge/AWQ_Quantization-FF6F00?style=flat-square)
-![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
-![BGE-M3](https://img.shields.io/badge/BGE--M3_Embeddings-412991?style=flat-square)
-![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat-square)
-
-**Systems & Cloud**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-
-**Frameworks & Databases**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+> My portfolio is itself an agent you can talk to — **Avocado AI**, running a public MCP server → **[jayaremala.com](https://jayaremala.com/)**
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🥑 [jayaremala.com — Avocado AI](https://github.com/sabarishreddy99/jayaremala) · [Live](https://jayaremala.com)
-Production portfolio fronted by a **streaming RAG agentic chatbot** with a 4-stage hybrid retrieval pipeline: query expansion → batched dense search (ChromaDB / all-MiniLM-L6-v2 ONNX) → BM25 lexical search → **Reciprocal Rank Fusion (k=60)** — all before Gemini 2.5 Flash sees the question. Multi-provider fallback (Gemini / Groq / OpenRouter), incrementally auto-syncing knowledge base, blue-green deploys on AWS Lightsail.
-`Next.js 16` `FastAPI` `ChromaDB` `BM25` `RRF` `fastembed ONNX` `Docker` `GitHub Actions`
+### [Tailorbird](https://github.com/sabarishreddy99/tailorbird) — autonomous résumé tailoring
+A deterministic Python orchestrator that turns a job URL into a tailored one-page résumé, driving a **coding agent headlessly**. Pluggable ATS adapters (Greenhouse, Ashby, Lever, Workday, Workable, Apple, Amazon, Oracle), a regex eligibility screen that costs **zero tokens**, `flock`-guarded concurrent commits, and a stdlib web tracker with live log streaming.
 
-### 🏆 [SnapLog — Edge AI Security Engine](https://github.com/sabarishreddy99/snap-log) · *Qualcomm Hackathon Winner*
-**15ms token latency on Snapdragon NPUs — 10× over cloud inference** — by fine-tuning Llama 3.2 3B on security logs with QLoRA and deploying via 4-bit AWQ quantization through ONNX Runtime on-device. Offline-first SQLite buffer guarantees zero data loss during network partitions.
-`QLoRA` `AWQ` `ONNX Runtime` `Llama 3.2` `Snapdragon NPU` `FastAPI`
+**Cut inference cost per job from $1.23 to $0.92 and fresh tokens from 77k to 42k** by loading the agent skill once into a primed session and forking a prompt-cached child per job.
 
-### 🧬 GeneCart — AI Genomics Discovery *(in active development @ NYU CAS)*
-AI-powered platform making genomic data exploration actionable for researchers. Owning the agent/LLM layer with LangGraph + PyTorch and the full-stack delivery path on AWS + Kubernetes.
-`LangGraph` `PyTorch` `FastAPI` `React` `PostgreSQL` `AWS`
+`Python` `Claude Code CLI (headless)` `MCP` `AsyncIO` `FastAPI` `headless Chrome`
 
-### 🔎 Multi-Agent Research Discovery Engine
-Production LangGraph + Llama 3.1 70B system semantically mapping global researcher collaboration networks across millions of Elsevier papers. **78% P99 latency cut** via write-through Redis caching; **99.9% uptime at 3,000+ RPS** on AWS ECS.
-`LangGraph` `Llama 3.1 70B` `BGE-M3` `Redis` `AWS` `Kubernetes`
+### [Avocado AI](https://github.com/sabarishreddy99/jayaremala) · [Live](https://jayaremala.com/chat) — agent-native platform with a public MCP server
+A portfolio fronted by a streaming agentic assistant, over a **4-stage hybrid retrieval pipeline**: query expansion → dense vector search (ChromaDB) → BM25 → **Reciprocal Rank Fusion**. Every tool is exposed through a **public Model Context Protocol server** any Claude or Cursor client can consume — read-only, token-gated and rate-limited. Multi-provider routing (Gemini → Groq → OpenRouter) fails over on cost and availability.
 
-### 👥 [CodeCollab — Real-Time Collaborative Editor](https://github.com/sabarishreddy99/CodeCollab)
-Conflict-free multi-user editing with Yjs (CRDTs) + WebSockets, horizontally scaled behind Nginx. **65% better AI auto-complete context** via an AST-chunking, Voyage-Code-2 embedding agent.
-`CRDTs` `WebSockets` `Claude 3.5` `Voyage AI` `Redis` `Docker`
+`FastAPI` `MCP (FastMCP)` `ChromaDB` `BM25` `RRF` `HyDE` `Next.js` `Docker` `AWS`
 
-### 📈 [gradeVITian](https://gradevitian.jayaremala.com) · [GitHub](https://github.com/sabarishreddy99/gv-official)
-Academic grade-forecasting PWA — **17K+ monthly active users, 20K+ accounts, #2 Google Search ranking**. Ran 6+ years in production, recently rebuilt on Next.js + FastAPI.
-`Next.js` `React` `FastAPI` `PWA` `SEO`
+### [CodeCollab](https://github.com/sabarishreddy99/CodeCollab) — real-time collaborative editor + code retrieval
+Conflict-free multi-user editing with **Yjs CRDTs** over WebSockets and a Redis presence layer, horizontally scaled behind Nginx. Its retrieval half raised **code retrieval relevance 65%** over naive context windows by chunking source at **AST scope level** and embedding each scope with Voyage-Code-2, measured against a fixed baseline query set.
+
+`Node.js` `Yjs CRDT` `WebSockets` `Redis` `Voyage-Code-2` `Docker`
+
+### SnapLog — on-device LLM inference · *Qualcomm Edge AI Hackathon winner*
+A **QLoRA**-fine-tuned Llama 3.2 3B served at **15ms on-device** through 4-bit **AWQ** quantization on **ONNX Runtime** — 10× faster than the cloud baseline it was benchmarked against. An offline-first SQLite buffer keeps ingestion lossless through network partitions.
+
+`QLoRA` `AWQ` `ONNX Runtime` `Llama 3.2 3B` `Snapdragon NPU` `FastAPI`
+
+### GeneCart — AI-assisted genomics discovery · *NYU CAS, in production use*
+Search and discovery over large scientific corpora, owned end to end across the API, the agent layer, the data model and the AWS infrastructure. The agent is scoped to a fixed set of **least-privilege server-side tools**, so interpreted intent can never issue an unbounded write, with a human retaining final authority over sensitive genomic data.
+
+`LangGraph` `FastAPI` `PostgreSQL` `pgvector` `React` `AWS` `Kubernetes` `Terraform`
+
+### [gradeVITian](https://gradevitian.jayaremala.com) · [GitHub](https://github.com/sabarishreddy99/gv-official) — consumer web, six years live
+Built from idea to production as sole engineer: **17,000+ monthly active users**, **20,000+ accounts**, **#2 on Google** through programmatic SEO, tuned against Core Web Vitals as a PWA with service workers. Still running six years later, since rebuilt on Next.js and FastAPI.
+
+`Next.js` `FastAPI` `PHP` `MySQL` `PWA` `Technical SEO`
 
 <!-- ===================== EXPERIENCE ===================== -->
-## 💼 Experience Highlights
+## Experience
 
-| Where | Role | Impact |
-|-------|------|--------|
-| **NYU CAS – Genomics & Systems Biology** | Software Engineer *(Jun 2025 – Present)* | Building GeneCart's agent/LLM layer (LangGraph + PyTorch) |
-| **NYU IT – High-Speed Research Network** | Software Engineer, Research Infra | 78% P99 latency cut · 99.9% uptime @ 3K+ RPS · 65% faster deploys |
-| **Wipro (Client: Shell PLC)** | Software Engineer | Zero-data-loss Kafka pipeline · 115GB/day · 200+ offshore stations |
-| **VIT University** | Full Stack Developer | gradeVITian → 17K+ MAU, #2 on Google |
+| Where | Role | What it produced |
+|---|---|---|
+| **NYU CAS — Genomics & Systems Biology** | Software Engineer · Jun 2025 – present | GeneCart: agent layer, API contracts, Terraform-provisioned AWS |
+| **NYU IT — High-Speed Research Network** | Software Engineer, Research Infrastructure | +40% answer quality · P99 −78% · 99.9% @ 3,000+ RPS · deploy lead time −65% |
+| **Wipro** *(client: Shell PLC)* | Software Engineer, embedded partner · Bengaluru | 115GB/day zero data loss · fault tolerance +39% · service requests −45% |
+| **Vellore Institute of Technology** | Full Stack Developer | gradeVITian → 17K+ MAU, 20K+ accounts, #2 on Google |
 
-<!-- ===================== GITHUB STATS ===================== -->
-## 📊 GitHub Stats
+<!-- ===================== STACK ===================== -->
+## Stack
+
+**Languages** Python · Java · TypeScript · JavaScript · SQL · Bash
+
+**AI & agents** LangGraph · Model Context Protocol (MCP, FastMCP) · RAG · vector search (ChromaDB, FAISS, pgvector) · embeddings (BGE-M3, Voyage-Code-2) · hybrid search + Reciprocal Rank Fusion · prompt & context engineering · QLoRA fine-tuning · AWQ quantization · ONNX Runtime · Claude Code and Cursor daily
+
+**Backend & data** FastAPI · Spring Boot · Django · Node.js · REST · gRPC · GraphQL · Apache Kafka (exactly-once, DLQ, schema-registry governance) · PostgreSQL · Redis · DynamoDB · Elasticsearch · Spark · Airflow · dbt · Snowflake
+
+**Cloud & reliability** AWS (ECS, EKS, Lambda, S3, SQS) · Kubernetes · Docker · Terraform · Ansible · CI/CD · blue-green deploys · Datadog · Grafana · Prometheus · distributed tracing · on-call and incident RCA
 
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=sabarishreddy99&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabarishreddy99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=sabarishreddy99&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-
 </div>
 
 <!-- ===================== CONNECT ===================== -->
-## 🤝 Let's Build Something
+## Let's build something
 
-Open to roles in **Healthcare, Finance, and Consumer (Entertainment & Retail)** where AI infrastructure has to actually work at scale.
+Open to **AI engineering, applied AI, and backend** roles where the work is production rather than prototype — and to forward-deployed work, which is what the two years embedded at Shell actually were.
 
 <div align="center">
 
-<a href="https://jayaremala.com/chat"><img src="https://img.shields.io/badge/Talk_to_my_AI-jayaremala.com-26d0ce?style=for-the-badge&logo=openai&logoColor=white" alt="Portfolio"/></a>
+<a href="https://jayaremala.com/chat"><img src="https://img.shields.io/badge/Talk_to_my_AI-jayaremala.com-26d0ce?style=for-the-badge&logo=openai&logoColor=white" alt="Talk to my AI"/></a>
 <a href="https://linkedin.com/in/jayasabarishreddyr"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:jr6421@nyu.edu"><img src="https://img.shields.io/badge/Reach_out-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:26d0ce,100:1a2980&height=120&section=footer" width="100%"/>
 
 </div>
